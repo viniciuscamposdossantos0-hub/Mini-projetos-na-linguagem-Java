@@ -4,7 +4,8 @@ Projetos de terminal com funcionalidades simples e de nível iniciante
 Aplicar conceitos de lógica de programação e sintáxe da linguagem Java.
 ## Projetos
 - Calculadora simples: permite que o usuário realize operações aritméticas simples (soma, subtração, multiplicação, divisão e resto de divisão).
-- Calculadora de IMC: permite que o usuário realize o cálculo individual do índice de massa corpórea.
+- Calculadora de IMC: permite a realização do cálculo individual do índice de massa corpórea.
+- Tabuada: efetua a tabuada de 1 a 10 do número que o usuário informar.
 ## Tecnologias utilizadas
 - IDE IntelliJ IDEA
 - Linguagem Java (Open JDK 26.0.1)
