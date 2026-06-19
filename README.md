@@ -10,5 +10,5 @@ Aplicar conceitos de lógica de programação e sintáxe da linguagem Java.
 - IDE IntelliJ IDEA
 - Linguagem Java (Open JDK 26.0.1)
 ## Contato
-- LinkedIn: [https://www.linkedin.com/in/vinicius-campos-dos-santos-8228b0376?utm_source=share_via&utm_content=profile&utm_medium=member_android]
-- E-mail: [viniciuscamposdossantos0@gmail.com]
+- LinkedIn: https://www.linkedin.com/in/vinicius-campos-dos-santos-8228b0376?utm_source=share_via&utm_content=profile&utm_medium=member_android
+- E-mail: viniciuscamposdossantos0@gmail.com
