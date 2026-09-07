@@ -18,16 +18,17 @@ static void Soma() {
     System.out.println("Digite o número de colunas da segunda matriz");
     ijB[1] = scanner.nextByte();
     if (ijA[0] != ijB[0]) {
-        System.out.println("As matrizes devem ter a mesma ordem!");
+        System.out.println("AS MATRIZES DEVEM TER A MESMA ORDEM!");
     } else if (ijA[1] != ijB[1]) {
-        System.out.println("As matrizes devem ter a mesma ordem!");
+
+        System.out.println("AS MATRIZES DEVEM TER A MESMA ORDEM!");
     } else {
         System.out.println();
         A = new int[ijA[0]][ijA[1]];
         System.out.println("Primeira matriz");
+        System.out.println("Digite os termos da primeira matriz, da esquerda para a direita, de cima para baixo");
         for (int i = 0; i < A.length; i++) {
             for (int j = 0; j < A[0].length; j++) {
-                System.out.println("Digite o termo [" + (i+1) + "][" + (j+1) + "]");
                 A[i][j] = scanner.nextInt();
             }
         }
@@ -37,9 +38,9 @@ static void Soma() {
         System.out.println();
         B = new int[ijB[0]][ijB[1]];
         System.out.println("Segunda matriz");
+        System.out.println("Digite os termos da primeira matriz, da esquerda para a direita, de cima para baixo");
         for (int i = 0; i < B.length; i++) {
             for (int j = 0; j < B[0].length; j++) {
-                System.out.println("Digite o termo ["+(i+1)+"]["+(j+1)+"]");
                 B[i][j] = scanner.nextInt();
             }
         }
@@ -67,16 +68,16 @@ static void Subtracao() {
     System.out.println("Digite o número de colunas da segunda matriz");
     ijB[1] = scanner.nextByte();
     if (ijA[0] != ijB[0]) {
-        System.out.println("As matrizes devem ter a mesma ordem!");
+        System.out.println("AS MATRIZES DEVEM TER A MESMA ORDEM!");
     } else if (ijA[1] != ijB[1]) {
-        System.out.println("As matrizes devem ter a mesma ordem!");
+        System.out.println("AS MATRIZES DEVEM TER A MESMA ORDEM!");
     } else {
         System.out.println();
         A = new int[ijA[0]][ijA[1]];
         System.out.println("Primeira matriz");
+        System.out.println("Digite os termos da primeira matriz, da esquerda para a direita, de cima para baixo");
         for (int i = 0; i < A.length; i++) {
             for (int j = 0; j < A[0].length; j++) {
-                System.out.println("Digite o termo [" + (i+1) + "][" + (j+1) + "]");
                 A[i][j] = scanner.nextInt();
             }
         }
@@ -86,9 +87,9 @@ static void Subtracao() {
         System.out.println();
         B = new int[ijB[0]][ijB[1]];
         System.out.println("Segunda matriz");
+        System.out.println("Digite os termos da primeira matriz, da esquerda para a direita, de cima para baixo");
         for (int i = 0; i < B.length; i++) {
             for (int j = 0; j < B[0].length; j++) {
-                System.out.println("Digite o termo ["+(i+1)+"]["+(j+1)+"]");
                 B[i][j] = scanner.nextInt();
             }
         }
@@ -116,7 +117,7 @@ static void Multiplicacao() {
     System.out.println("Digite o número de colunas da segunda matriz");
     ijB[1] = scanner.nextByte();
     if (ijA[1] != ijB[0]) {
-        System.out.println("O número de linhas da primeira matriz deve ser igual ao número de linhas da segunda!");
+        System.out.println("O NÚMERO DE COLUNAS DA PRIMEIRA MATRIZ DEVE SER IGUAL AO DA SEGUNDA!");
     } else {
         A = new int[ijA[0]][ijA[1]];
         System.out.println("Primeira matriz");
@@ -187,8 +188,7 @@ void main() {
     System.out.println("(1) Soma");
     System.out.println("(2) Subtração");
     System.out.println("(3) Multiplicação");
-    System.out.println("(4) Matirz Inversa");
-    System.out.println("(5) Determinante");
+    System.out.println("(4) Determinante 2 por 2");
     String escolha = scanner.next();
     switch (escolha) {
         case "1":
@@ -208,15 +208,12 @@ void main() {
             break;
         case "4":
             System.out.println();
-            System.out.println("MATRIZ INVERSA");
-            break;
-        case "5":
-            System.out.println();
             System.out.println("DETERMINANTE 2x2");
             Determinante2x2();
             break;
         default:
             System.out.println();
-            System.out.println("digite 1, 2, 3, 4 ou 5!");
+            System.out.println("digite 1, 2, 3 ou 4!");
     }
 }
+
