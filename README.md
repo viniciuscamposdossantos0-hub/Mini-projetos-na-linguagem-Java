@@ -5,6 +5,7 @@ Aplicar conceitos de lógica de programação e sintáxe da linguagem Java.
 ## Projetos
 - Calculadora simples: permite que o usuário realize operações aritméticas simples (soma, subtração, multiplicação, divisão e resto de divisão).
 - Calculadora de IMC: permite a realização do cálculo individual do índice de massa corpórea.
+- Calculadora de matrizes: permite calcular soma, subtração e multiplicação de matrizes, bem como determinante de matrizes de ordem 2.
 - Tabuada: efetua a tabuada de 1 a 10 do número que o usuário informar.
 - Operações com vetores: calcula o valor máximo, o mínimo e a média de um vetor de 10 termos determinados pelo usuário.
 ## Tecnologias utilizadas
