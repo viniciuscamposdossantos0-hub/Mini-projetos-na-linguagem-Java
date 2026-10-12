@@ -1,7 +1,7 @@
 # Mini projetos na linguagem Java
 Projetos de terminal com funcionalidades simples e de nível iniciante
 ## Objetivo
-Aplicar conceitos de lógica de programação e sintaxe da linguagem Java.
+Aplicar conceitos de lógica de programação e sintaxe da linguagem Java, bem como conceitos de orientação a objetos.
 ## Projetos
 - Calculadora simples: permite que o usuário realize operações aritméticas simples (soma, subtração, multiplicação, divisão e resto de divisão).
 - Calculadora de IMC: permite a realização do cálculo individual do índice de massa corpórea.
