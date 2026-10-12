@@ -8,6 +8,7 @@ Aplicar conceitos de lógica de programação e sintaxe da linguagem Java.
 - Calculadora de matrizes: permite calcular soma, subtração e multiplicação de matrizes, bem como determinante de matrizes de ordem 2.
 - Tabuada: efetua a tabuada de 1 a 10 do número que o usuário informar.
 - Operações com vetores: calcula o valor máximo, o mínimo e a média de um vetor de 10 termos determinados pelo usuário.
+- Caixa-POO: Programa que simula, no console, um caixa de mercado, permitindo a seleção dos produtos através do seu código e a quantidade, calculando o valor total a ser pago pelo usuário. Utiliza comceitos de POO, como classe, getters e setters e instanciação.
 ## Tecnologias utilizadas
 - IDE IntelliJ IDEA
 - Linguagem Java (Open JDK 26.0.1)
