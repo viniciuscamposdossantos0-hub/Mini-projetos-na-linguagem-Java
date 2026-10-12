@@ -1,7 +1,7 @@
 # Mini projetos na linguagem Java
 Projetos de terminal com funcionalidades simples e de nível iniciante
 ## Objetivo
-Aplicar conceitos de lógica de programação e sintáxe da linguagem Java.
+Aplicar conceitos de lógica de programação e sintaxe da linguagem Java.
 ## Projetos
 - Calculadora simples: permite que o usuário realize operações aritméticas simples (soma, subtração, multiplicação, divisão e resto de divisão).
 - Calculadora de IMC: permite a realização do cálculo individual do índice de massa corpórea.
@@ -11,6 +11,11 @@ Aplicar conceitos de lógica de programação e sintáxe da linguagem Java.
 ## Tecnologias utilizadas
 - IDE IntelliJ IDEA
 - Linguagem Java (Open JDK 26.0.1)
+## Como testar
+Cole o comando no git e clone o repositório:
+```bash
+git clone https://github.com/viniciuscamposdossantos0-hub/Mini-projetos-na-linguagem-Java
+```
 ## Contato
 - LinkedIn: https://www.linkedin.com/in/vinicius-campos-dos-santos-8228b0376
 - E-mail: viniciuscamposdossantos0@gmail.com
